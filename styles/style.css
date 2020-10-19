@@ -1,17 +1,25 @@
 html {
     background-color: whitesmoke;
+    padding: 20px;
+    margin: 5px;
 }
 
 h1 {
     color: lightblue;
+    margin: 0;
 }
 
 p {
     color: lightslategray;
-    padding: 20px, 20px, 20px, 20px;
     width: 400px;
     border: dashed 1px lightsalmon;
     border-radius: 5px;
     letter-spacing: 1px;
-    margin-left: 10px;
+}
+
+#count {
+    color: red;
+    text-align: center;
+    font-size: 200px;
+    width: 31%;
 }
