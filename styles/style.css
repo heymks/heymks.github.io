@@ -1,24 +1,50 @@
 html {
-    background-color: whitesmoke;
-    padding: 20px;
-    margin: 5px;
+    padding: 10px;
+    margin: 2px;
+    background-color: aliceblue;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-h1 {
-    color: lightblue;
+#nameInResume {
+    font-family: 'Lobster', cursive;
+    width: 220px;
+    background-color: black;
+    color: white;
+    font-size:40px;
+    text-align: left;
     margin: 0;
-}
+    padding-left: 5px;
+    }
 
 p {
-    color: lightslategray;
-    width: 400px;
-    border: dashed 1px lightsalmon;
-    border-radius: 5px;
-    letter-spacing: 1px;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 5px;
 }
 
-#count {
-    color: red;
-    text-align: center;
-    font-size: 100px
+.heading-skills {
+    font-family: 'Lobster', cursive;
+    width: 220px;
+    background-color: black;
+    color: white;
+    font-size:25px;
+    text-align: left;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.heading-skill-type {
+    font-family: 'Lobster', cursive;
+    width: 220px;
+    background-color: black;
+    color: white;
+    font-size:18px;
+    text-align: left;
+    margin: 0;
+    padding-left: 5px;    
+}
+
+.skill-desc {
+    width: 220px;
+    text-align: justify;
 }
